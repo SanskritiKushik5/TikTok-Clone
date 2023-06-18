@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
-import 'package:tiktok/constants.dart';
+import 'package:tiktok_app/constants.dart';
 
 class GlithEffect extends StatefulWidget {
   GlithEffect({required this.child});

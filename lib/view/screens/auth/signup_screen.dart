@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tiktok/view/widgets/glitch.dart';
-import 'package:tiktok/view/widgets/text_input.dart';
+import 'package:tiktok_app/view/widgets/glitch.dart';
+import 'package:tiktok_app/view/widgets/text_input.dart';
 
 class SignupScreen extends StatelessWidget {
   SignupScreen({Key? key}) : super(key: key);
