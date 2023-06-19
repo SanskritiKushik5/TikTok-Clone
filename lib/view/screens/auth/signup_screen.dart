@@ -88,7 +88,7 @@ class SignupScreen extends StatelessWidget {
               SizedBox(height: 30),
               ElevatedButton(
                   onPressed: () {
-                    AuthController.instance.SignUp(
+                    AuthController.instance.signUp(
                         _usernameController.text,
                         _emailController.text,
                         _setPasswordController.text,
