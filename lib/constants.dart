@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:tiktok_app/view/screens/add_video.dart';
 
 // getRandomColor() => Colors.primaries[Random().nextInt(Colors.primaries.length)];
 
@@ -16,4 +17,10 @@ const backgroundColor = Colors.black;
 var buttonColor = Colors.red[400];
 const borderColor = Colors.grey;
 
-const padeindex = ['Home', 'Search', 'Upload Video', 'Messages', 'Profile'];
+var padeindex = [
+  Text('Home'),
+  Text('Search'),
+  addVideoScreen(),
+  Text('Messages'),
+  Text('Profile')
+];

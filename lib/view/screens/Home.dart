@@ -38,6 +38,6 @@ class _HomeScreenState extends State<HomeScreen> {
             BottomNavigationBarItem(icon: Icon(Icons.person), label: "Profile"),
           ],
         ),
-        body: Center(child: Text(padeindex[pageIdx])));
+        body: Center(child: padeindex[pageIdx]));
   }
 }
